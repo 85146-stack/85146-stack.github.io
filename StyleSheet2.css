@@ -1,0 +1,33 @@
+﻿body {
+    background-color: dimgrey;
+}
+nav {
+    display: flex;
+    gap: 100px;
+    padding-left: 200px;
+    padding-right: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.carcrash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+
+   .carcrash img {
+        width: 100%;
+        height: auto;
+        margin-left: 150px;
+    }

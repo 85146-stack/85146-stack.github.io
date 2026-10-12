@@ -1,0 +1,32 @@
+﻿.hero-image {
+    background-image: url("./Photos/Home Page Photo.jpg");
+    height: 590px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.hero-text{
+    color: darkgoldenrod;
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    width: 100%;
+    font-size: 70px;
+}
+
+body {
+    background-color: dimgrey;
+}
+
+nav {
+    display: flex;
+    gap: 100px;
+    padding-left: 200px;
+    padding-right: 50px;
+}

@@ -1,0 +1,48 @@
+﻿body {
+    background-color: dimgrey;
+}
+nav {
+    display: flex;
+    gap: 100px;
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.army {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+
+    .army img {
+        width: 100%;
+        height: auto;
+        margin-left: 150px;
+    }
+
+.Machne img {
+    width: 800px;
+    height: 600px;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 20px;
+}
+
+.Machne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}

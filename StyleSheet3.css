@@ -1,0 +1,58 @@
+﻿body {
+    background-color: dimgrey;
+}
+nav {
+    display: flex;
+    gap: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bombs img {
+    width: 800px;
+    height: 600px;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 20px;
+}
+
+.bombs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+
+.buildings img {
+    width: 800px;
+    height: 600px;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 20px;
+}
+
+.buildings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+
+    .people img {
+        width: 800px;
+        height: 600px;
+        margin-left: 150px;
+        margin-right: 150px;
+        gap: 20px;
+    }
+
+.people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
